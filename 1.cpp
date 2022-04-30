@@ -2,6 +2,7 @@
 //basics
 #include<iostream>
 using namespace std;
+string xcar ; 
 class Car{
   public :
   void honk()
@@ -10,12 +11,18 @@ class Car{
   }
   void ask()
   {
+   
     cout << "UR FAV CAR" << endl;
+    cin >> xcar;
   }
 };
 
 int main ()
 {
+  
   Car ford ;
   ford.honk();
   ford.ask();
+  
+  return 0 ; 
+}
