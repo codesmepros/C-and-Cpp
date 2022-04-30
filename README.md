@@ -1,3 +1,3 @@
-# # # @ginyos-secure , @vikram2009 , #ginyossecure 
+# #ginyos-secure
 c++ and c programming files
 
