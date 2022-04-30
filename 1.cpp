@@ -2,7 +2,7 @@
 //basics
 #include<iostream>
 using namespace std;
-string xcar ; 
+char xcar[100]; 
 class Car{
   public :
   void honk()
@@ -13,7 +13,8 @@ class Car{
   {
    
     cout << "UR FAV CAR" << endl;
-    cin >> xcar;
+    scanf("%s",xcar);
+    printf("Gr8 Choice");
   }
 };
 
