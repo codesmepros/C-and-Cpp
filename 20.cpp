@@ -11,6 +11,6 @@ class Ginyos{
 
 int main(){
 Ginyos y;
-  y.aks();
+  y.ask();
 
 }
